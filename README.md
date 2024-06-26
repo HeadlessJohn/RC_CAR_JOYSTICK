@@ -1,3 +1,7 @@
+<img width = "30%" src="https://github.com/HeadlessJohn/RC_CAR_JOYSTICK/assets/159260193/7bcffdd5-c008-47f0-aae7-a053b6ceb888"> 
+<img width = "30%" src="https://github.com/HeadlessJohn/RC_CAR_JOYSTICK/assets/159260193/33dd6dcd-93c7-48d1-9bbf-7fcc16ee1d2b"> 
+<img width = "30%" src="https://github.com/HeadlessJohn/RC_CAR_JOYSTICK/assets/159260193/e37ecfc1-0f7b-497d-b154-31012fb6d8ba"> 
+
 # RC Car Project
 ## Nucleo F411RE 보드를 이용한 RC Car
 ### 1. 기능
@@ -13,3 +17,6 @@
 ### 3. OS, API
 - FreeRTOS CMSIS-RTOS V2
 - ssd1306 library
+### 4. 주행 영상
+- https://youtu.be/MAADGU-7uBE
+- https://youtu.be/sVET32UEgNk
