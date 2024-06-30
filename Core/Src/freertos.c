@@ -271,7 +271,7 @@ void thread1(void *argument){
 			// printf("ADC: %d\t %d\t %d\t %d\n", adc_value[0], adc_value[1], adc_value[2], adc_value[3]);
 
 			// memset(bt_rx_buffer, 0, sizeof(bt_rx_buffer));
-		osDelay(20);	
+		osDelay(10);	
 		}
 	}
 }
@@ -286,8 +286,8 @@ void thread2(void *argument){
 	for(;;){
 
 		// 직진 속도 계산
-		foward_speed = (ADC_VAL_LEFT_Y >> 1) - 1000 ; // -1000 ~ 1000
-		turn_speed = (ADC_VAL_RIGHT_X >> 1) - 1000; // -1000 ~ 1000 오른쪽이 큰값
+		foward_speed = (ADC_VAL_LEFT_Y >> 1) - 1024 ; // -1000 ~ 1000
+		turn_speed = (ADC_VAL_RIGHT_X >> 1) - 1024; // -1000 ~ 1000 오른쪽이 큰값
 
 		speed_l = foward_speed + turn_speed ;
 		speed_r = foward_speed - turn_speed ;
@@ -327,7 +327,7 @@ void thread2(void *argument){
 		left_wheel_set_speed(speed_l);
 		right_wheel_set_speed(speed_r);
 
-		osDelay(20);
+		osDelay(30);
 	}
 }
 

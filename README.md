@@ -20,3 +20,5 @@
 ### 4. 주행 영상
 - https://youtu.be/MAADGU-7uBE
 - https://youtu.be/sVET32UEgNk
+### 5. PPT
+- https://www.miricanvas.com/v/13e5q3i
